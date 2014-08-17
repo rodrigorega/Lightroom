@@ -44,3 +44,7 @@ Because Developing is a a long, subjective process, there’s really no good way
 ★★★★☆ - Developing made this photo even better. Its worthy of being shared to my Tumblr and Flickr. Absolutely must make it into our photo books.
 
 ★★★★★ - Hall of Fame. If I had a portfolio of photography, this would go in there. But I don’t. So really, this is just a way for me to return to my favorite photos. Maybe I’ll print them.
+
+8) Delete rejected photos
+
+Time to clean the house, delete all photos marked as "rejected" in step 1.
