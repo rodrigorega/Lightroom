@@ -1,0 +1,27 @@
+s = {
+	id = "4FC11219-3840-47E2-8994-6E3EA9B62C16",
+	internalName = "8) Delete Rejected",
+	title = "8) Delete Rejected",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
+		},
+		{
+			criteria = "folder",
+			operation = "any",
+			value = "reflex",
+			value2 = "",
+		},
+		{
+			criteria = "pick",
+			operation = "==",
+			value = -1,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}
