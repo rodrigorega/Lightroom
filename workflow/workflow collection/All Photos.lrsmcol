@@ -1,19 +1,19 @@
 s = {
-	id = "F390DEE1-4636-4EF2-97D8-F9F309C1DEB8",
-	internalName = "All Photos",
-	title = "All Photos",
+	id = "EFAFE2EB-D70A-40E2-B4BF-6B545DF6A454",
+	internalName = "All workflow photos",
+	title = "All workflow photos",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		combine = "intersect",

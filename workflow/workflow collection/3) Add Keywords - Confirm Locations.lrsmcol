@@ -1,19 +1,19 @@
 s = {
-	id = "BE37B201-F511-4050-918F-3FE99FE1D99F",
-	internalName = "3) Add Keywords - Confirm Locations",
-	title = "3) Add Keywords - Confirm Locations",
+	id = "CE99FEE3-4C3F-4F33-AD9F-7441DB3D3DA0",
+	internalName = "3) Add Keywords",
+	title = "3) Add Keywords",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{
@@ -27,14 +27,15 @@ s = {
 			value = -1,
 		},
 		{
-			criteria = "labelColor",
-			operation = "==",
-			value = "none",
-		},
-		{
 			criteria = "hasGPSData",
 			operation = "==",
 			value = true,
+		},
+		{
+			criteria = "keywords",
+			operation = "empty",
+			value = "",
+			value2 = "",
 		},
 		combine = "intersect",
 	},

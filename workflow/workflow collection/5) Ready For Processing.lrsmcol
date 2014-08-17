@@ -1,19 +1,19 @@
 s = {
-	id = "32F6A246-EA02-48BA-9CAE-A9B2390D690E",
+	id = "9379AF40-092D-4FA8-A980-E581C75E9F1C",
 	internalName = "5) Ready For Processing",
 	title = "5) Ready For Processing",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{
@@ -32,9 +32,15 @@ s = {
 			value = true,
 		},
 		{
+			criteria = "keywords",
+			operation = "notEmpty",
+			value = "",
+			value2 = "",
+		},
+		{
 			criteria = "labelColor",
 			operation = "==",
-			value = 1,
+			value = "none",
 		},
 		combine = "intersect",
 	},

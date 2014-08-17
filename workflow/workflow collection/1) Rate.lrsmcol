@@ -1,21 +1,9 @@
 s = {
-	id = "B129A423-1AEE-4958-AEB6-DB1F83FD4137",
-	internalName = "1) Rate",
-	title = "1) Rate",
+	id = "1B1FAA1D-5EA0-49F1-B5E0-68784B0A116A",
+	internalName = "1) Rate (?o/??) or reject -X-",
+	title = "1) Rate (?o/??) or reject -X-",
 	type = "LibrarySmartCollection",
 	value = {
-		{
-			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
-		},
-		{
-			criteria = "camera",
-			operation = "any",
-			value = "YOUR CAMERA HERE",
-			value2 = "",
-		},
 		{
 			criteria = "rating",
 			operation = "==",
@@ -25,6 +13,18 @@ s = {
 			criteria = "pick",
 			operation = "!=",
 			value = -1,
+		},
+		{
+			criteria = "folder",
+			operation = "any",
+			value = "reflex",
+			value2 = "",
+		},
+		{
+			criteria = "captureTime",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		combine = "intersect",
 	},

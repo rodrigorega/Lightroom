@@ -1,19 +1,19 @@
 s = {
-	id = "1E4CFEF0-5DC4-4D8A-BDE4-44C877ABE4BC",
-	internalName = "7) Done Processing - ReRate",
-	title = "7) Done Processing - ReRate",
+	id = "97E4B22A-7ED8-41FC-BB1C-1AA9BA07BDA2",
+	internalName = "7) Done Processing - ReRate (green label)",
+	title = "7) Done Processing - ReRate (green label)",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{

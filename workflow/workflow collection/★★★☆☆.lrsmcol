@@ -1,19 +1,19 @@
 s = {
-	id = "3FCAE581-4E88-4B17-A39C-5B9B173AE966",
-	internalName = "★★★☆☆",
-	title = "★★★☆☆",
+	id = "83624DE3-A395-4F9C-A49B-7663505C2BBC",
+	internalName = "★★★☆☆ (average)",
+	title = "★★★☆☆ (average)",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{

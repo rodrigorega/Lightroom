@@ -1,19 +1,19 @@
 s = {
-	id = "7C4B7831-EF58-4DA0-9A06-A7D81F4D2115",
-	internalName = "6) In Progress Processing",
-	title = "6) In Progress Processing",
+	id = "68C43A36-5038-4554-91EB-8224F0CD89A2",
+	internalName = "6) In Progress Processing (yellow label)",
+	title = "6) In Progress Processing (yellow label)",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{

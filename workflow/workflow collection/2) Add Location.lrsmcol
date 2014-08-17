@@ -1,20 +1,14 @@
 s = {
-	id = "C3F6EE7E-9234-4F12-B342-963D056AF845",
-	internalName = "2) Add Location",
-	title = "2) Add Location",
+	id = "076DCCD5-8422-4CE9-965C-268DC0276F88",
+	internalName = "2) Geotagging",
+	title = "2) Geotagging",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
-		},
-		{
-			criteria = "camera",
-			operation = "any",
-			value = "YOUR CAMERA HERE",
-			value2 = "",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
 			criteria = "rating",
@@ -30,6 +24,12 @@ s = {
 			criteria = "hasGPSData",
 			operation = "!=",
 			value = true,
+		},
+		{
+			criteria = "folder",
+			operation = "any",
+			value = "reflex",
+			value2 = "",
 		},
 		combine = "intersect",
 	},

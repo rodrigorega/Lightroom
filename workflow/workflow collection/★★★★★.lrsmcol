@@ -1,19 +1,19 @@
 s = {
-	id = "9118E03D-9266-4E67-B1E8-222C97F984CC",
-	internalName = "★★★★★",
-	title = "★★★★★",
+	id = "E20AF2D5-7B41-4C2A-A25D-5BF7B01FE2AD",
+	internalName = "★★★★★ (Hall of Fame)",
+	title = "★★★★★ (Hall of Fame)",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{

@@ -1,19 +1,19 @@
 s = {
-	id = "48881906-C6FC-428D-9215-522064FDD7A1",
-	internalName = "4) Make Selects for Editing",
-	title = "4) Make Selects for Editing",
+	id = "0062B3F4-BD0E-44BF-BF0B-02D69FAED4D2",
+	internalName = "4) Make selects (flag -P-)",
+	title = "4) Make selects (flag -P-)",
 	type = "LibrarySmartCollection",
 	value = {
 		{
 			criteria = "captureTime",
-			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			operation = ">",
+			value = "2014-08-15",
+			value2 = "2014-08-17",
 		},
 		{
-			criteria = "camera",
+			criteria = "folder",
 			operation = "any",
-			value = "YOUR CAMERA HERE",
+			value = "reflex",
 			value2 = "",
 		},
 		{
@@ -32,9 +32,10 @@ s = {
 			value = true,
 		},
 		{
-			criteria = "labelColor",
-			operation = "==",
-			value = 1,
+			criteria = "keywords",
+			operation = "notEmpty",
+			value = "",
+			value2 = "",
 		},
 		combine = "intersect",
 	},
