@@ -30,12 +30,14 @@ Use this time to compare similar  ★★ photos and look at collection as a whol
 
 If ⚑ Flag 
 
-5) Develop - Worthy of a whole other writeup. But shoutout to VSCO presets.
+5) Waiting to Develop
+
+6) Develop - Worthy of a whole other writeup. But shoutout to VSCO presets.
 
 Because Developing is a a long, subjective process, there’s really no good way to automatically advance photos to the next step. Instead, I use the Yellow (7) label to signify that I’ve started editing an image and Green (8) to signal that its done being developed
 
 
-6) Final rating 
+7) Final rating 
 
 ★★★☆☆ - Done developing and the result was meh. Its still a good photo, but I’m not overly impressed with it. Could possibly be used as filler for photo books that Guri and I are making. 
 
